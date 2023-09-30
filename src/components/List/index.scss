@@ -1,0 +1,60 @@
+.list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__titles {
+        display: flex;
+        justify-content: space-between;
+        width: 685px;
+        padding-top: 186px;
+        padding-bottom: 40px;
+        border-bottom: 6px solid #D9D9D9;
+    }
+
+    h3 {
+        color: #FFFFFF;
+        font-size: 30px;
+        font-weight: 400;
+    }
+
+    .tarefas {
+        width: 685px;
+        list-style: none;
+        font-size: 25px;
+        color: #FFFFFF;
+        margin-top: 33px;
+
+        span {
+            width: 330px;
+        }
+
+        .newTaskButton {
+            cursor: pointer;
+        }
+
+        input[type="checkbox"] {
+            margin-right: auto;
+            cursor: pointer;
+        }
+
+        .taskList {
+            display: flex;
+        }
+
+        img {
+            cursor: pointer;
+        }
+    }
+
+    .newTask {
+        display: flex;
+
+        .plus {
+            display: flex;
+            justify-content: flex-end;
+            margin-left: 16px;
+            cursor: pointer;
+        }
+    }
+}
